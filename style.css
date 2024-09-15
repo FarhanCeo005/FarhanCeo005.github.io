@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6347;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #555;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    text-decoration: none;
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #333;
+  }
+  
+  .about {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    display: block;
+    margin: 20px auto; /* Memusatkan gambar */
+  }
+  
+  /* Mengatur jarak antara gambar dan teks */
+  .hero img {
+    margin-bottom: 20px;
+  }
+  
